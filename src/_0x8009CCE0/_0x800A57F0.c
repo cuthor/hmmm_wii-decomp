@@ -1,6 +1,6 @@
-#include "_0x800A57F0.h"
+#include "_0x8009CCE0/_0x800A57F0.h"
 
-
+// called by 0x8009B90C
 void fn_800A57F0(_0x800A57F0_T *arg1)
 {
     arg1->us_0x0  = 0x0;

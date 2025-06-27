@@ -303,8 +303,8 @@ config.libs = [
         "progress_category": "game",  # str | List[str]
         "objects": [
             Object(Matching, "_0x800A5AA4.c"),
-            Object(Matching, "_0x800A7D34.c"),
-            Object(Matching, "_0x800A57F0.c"),
+            Object(Matching, "_0x8009CCE0/_0x800A7D34.c"),
+            Object(Matching, "_0x8009CCE0/_0x800A57F0.c"),
             Object(Matching, "_0x800A8588.c"),
         ],
     }
