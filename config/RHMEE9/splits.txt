@@ -21,3 +21,6 @@ _0x800A5AA4.c:
 
 _0x800A7D34.c:
 	.text       start:0x800A7D34 end:0x800A7D3C
+
+_0x800A8588.c:
+	.text       start:0x800A8588 end:0x800A8598

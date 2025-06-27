@@ -305,6 +305,7 @@ config.libs = [
             Object(Matching, "_0x800A5AA4.c"),
             Object(Matching, "_0x800A7D34.c"),
             Object(Matching, "_0x800A57F0.c"),
+            Object(Matching, "_0x800A8588.c"),
         ],
     }
 ]
