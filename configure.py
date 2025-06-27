@@ -29,7 +29,7 @@ from tools.project import (
 # Game versions
 DEFAULT_VERSION = 0
 VERSIONS = [
-    "GAMEID",  # 0
+    "RHMEE9",  # 0
 ]
 
 parser = argparse.ArgumentParser()
@@ -296,6 +296,16 @@ config.libs = [
             Object(NonMatching, "Runtime.PPCEABI.H/__init_cpp_exceptions.cpp"),
         ],
     },
+    {
+        "lib": "test",
+        "mw_version": config.linker_version,
+        "cflags": cflags_runtime,
+        "progress_category": "game",  # str | List[str]
+        "objects": [
+            Object(Matching, "_0x800A5AA4.c"),
+            Object(Matching, "_0x800A7D34.c"),
+        ],
+    }
 ]
 
 
