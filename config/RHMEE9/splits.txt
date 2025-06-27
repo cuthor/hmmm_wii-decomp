@@ -13,11 +13,11 @@ Sections:
 	.sdata2     type:rodata align:16
 	.sbss2      type:bss align:16
 
+_0x800A57F0.c:
+	.text       start:0x800A57F0 end:0x800A5808
+
 _0x800A5AA4.c:
 	.text       start:0x800A5AA4 end:0x800A5AC8
 
 _0x800A7D34.c:
 	.text       start:0x800A7D34 end:0x800A7D3C
-
-_0x800A57F0.c:
-	.text		start:0x800A57F0 end:0x800A5808
